@@ -1,5 +1,3 @@
 STT 890 MLOps HW1
 
-data folder has the sampregdata.csv file. models folder has the two saved models (model 1.pkl and model 2.pkl). The code is in HW1 Problem 1.ipynb. You can load a model with joblib.load("models/model 2.pkl").
-
-Model 1 is the previous model. It uses only x4 because x4 had the best R^2 out of the single X's (R^2 = 0.275). Model 2 is the current model and uses x3 and x4, which was the best pair out of all the 2 X combinations (R^2 = 0.530). So adding x3 almost doubled the R^2 and made the predictions better.
+data folder has the sampregdata.csv file. models folder has the two saved models (model 1.pkl and model 2.pkl). The code is in HW1 Problem 1.ipynb. You can load a model with joblib.load("models/model 2.pkl"). Model 1 is the previous model. It uses only x4 because x4 had the best R^2 out of the single X's (R^2 = 0.275). Model 2 is the current model and uses x3 and x4, which was the best pair out of all the 2 X combinations (R^2 = 0.530). So adding x3 almost doubled the R^2 and made the predictions better.
